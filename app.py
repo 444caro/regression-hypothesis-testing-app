@@ -10,7 +10,7 @@ import base64
 from scipy.stats import t
 
 app = Flask(__name__)
-app.secret_key = "your_secret_key_here"  # Replace with your own secret key, needed for session management
+app.secret_key = "4444"  # Replace with your own secret key, needed for session management
 
 
 def generate_data(N, mu, beta0, beta1, sigma2, S):
